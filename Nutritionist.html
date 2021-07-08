@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+	<title>New Health Care</title>
+	<link href="/templates/it_medical/uikit/css/uikit.min.css" rel="stylesheet" />
+	<link href="/media/gantry5/assets/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="/media/gantry5/engines/nucleus/css-compiled/nucleus.css" rel="stylesheet" />
+	<link href="/templates/it_medical/custom/css-compiled/medical_16.css?60d57ac2" rel="stylesheet" />
+	<link href="/media/gantry5/assets/css/bootstrap-gantry.css" rel="stylesheet" />
+	<link href="/media/gantry5/engines/nucleus/css-compiled/joomla.css" rel="stylesheet" />
+	<link href="/media/jui/css/icomoon.css" rel="stylesheet" />
+	<link href="/templates/it_medical/custom/css-compiled/medical-joomla_16.css?60d57ac2" rel="stylesheet" />
+	<link href="/templates/it_medical/custom/css-compiled/custom_16.css?60d57ac2" rel="stylesheet" />
+	<link href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/dark-bottom.css" rel="stylesheet" />
+<style>
+
+#nav1{
+	background-color:rgb(48,67,86);
+	font-size: 1.5vw;
+    color: white;
+}
+#firstimg{
+	height: 20vw;
+	margin-left: 40vw;
+}
+#divcomp{
+	font-size: 1.5vw;
+	margin-left: 20vw;
+	margin-top: 5vw;
+}
+#divcomp1{
+	font-size: 1.5vw;
+	margin-left: 20vw;
+	font-family: Apple Chancery;
+}
+#divkomp{
+	font-size: 1.5vw;
+	margin-left: 20vw;
+	margin-top: 10vw;
+}
+#big{
+margin-right: 50vw;
+}
+#img2{
+	margin-left: 33.5vw;
+}
+#lastdiv{
+	margin-top: 3vw;
+}
+#firstimg{
+	margin-top: 10vh;
+	width: 100%;
+	height: 70vh;
+	margin-left: 0;
+
+} 
+   #nhc1{
+    width:10vw;
+    height: 10vw;
+  }
+
+       
+
+      
+            /*
+             *  Usage:
+             *
+                  <div class="sk-rotating-plane">
+             *
+             */
+            .sk-rotating-plane {
+              width: 100%;
+              height: 100%;
+              background-color: #ed1c24;
+              margin: 0 auto;
+              -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
+                      animation: sk-rotatePlane 1.2s infinite ease-in-out; }
+
+            @-webkit-keyframes sk-rotatePlane {
+              0% {
+                -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+                        transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+              50% {
+                -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+                        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+              100% {
+                -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+                        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
+
+            @keyframes sk-rotatePlane {
+              0% {
+                -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+                        transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+              50% {
+                -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+                        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+              100% {
+                -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+                        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
+
+            /*
+             *  Usage:
+             *
+                  <div class="sk-double-bounce">
+                    <div class="sk-child sk-double-bounce1">
+                    <div class="sk-child sk-double-bounce2">
+                  
+             *
+             */
+            .sk-double-bounce {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              margin: 0 auto; }
+              .sk-double-bounce .sk-child {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                background-color: #ed1c24;
+                opacity: 0.6;
+                position: absolute;
+                top: 0;
+                left: 0;
+                -webkit-animation: sk-doubleBounce 2s infinite ease-in-out;
+                        animation: sk-doubleBounce 2s infinite ease-in-out; }
+              .sk-double-bounce .sk-double-bounce2 {
+                -webkit-animation-delay: -1.0s;
+                        animation-delay: -1.0s; }
+
+            @-webkit-keyframes sk-doubleBounce {
+              0%, 100% {
+                -webkit-transform: scale(0);
+                        transform: scale(0); }
+              50% {
+                -webkit-transform: scale(1);
+                        transform: scale(1); } }
+
+            @keyframes sk-doubleBounce {
+              0%, 100% {
+                -webkit-transform: scale(0);
+                        transform: scale(0); }
+              50% {
+                -webkit-transform: scale(1);
+                        transform: scale(1); } }
+
+            /*
+             *  Usage:
+             *
+                  <div class="sk-wave">
+                    <div class="sk-rect sk-rect1">
+                    <div class="sk-rect sk-rect2">
+                    <div class="sk-rect sk-rect3">
+                    <div class="sk-rect sk-rect4">
+                    <div class="sk-rect sk-rect5">
+                  
+             *
+             */
+            .sk-wave {
+              margin: 0 auto;
+              width: 100%;
+              height: 100%;
+              text-align: center;
+              font-size: 10px; }
+              .sk-wave .sk-rect {
+                background-color: #ed1c24;
+                height: 100%;
+                width: 7px;
+                display: inline-block;
+                margin: 0 3px 0 0;
+                -webkit-animation: sk-waveStretchDelay 1.2s infinite ease-in-out;
+                        animation: sk-waveStretchDelay 1.2s infinite ease-in-out; }
+              .sk-wave .sk-rect1 {
+                -webkit-animation-delay: -1.2s;
+                        animation-delay: -1.2s; }
+              .sk-wave .sk-rect2 {
+                -webkit-animation-delay: -1.1s;
+                        animation-delay: -1.1s; }
+              .sk-wave .sk-rect3 {
+                -webkit-animation-delay: -1s;
+                        animation-delay: -1s; }
+              .sk-wave .sk-rect4 {
+                -webkit-animation-delay: -0.9s;
+                        animation-delay: -0.9s; }
+              .sk-wave .sk-rect5 {
+                -webkit-animation-delay: -0.8s;
+                        animation-delay: -0.8s; }
+
+            @-webkit-keyframes sk-waveStretchDelay {
+              0%, 40%, 100% {
+                -webkit-transform: scaleY(0.4);
+                        transform: scaleY(0.4); }
+              20% {
+                -webkit-transform: scaleY(1);
+                        transform: scaleY(1); } }
+
+            @keyframes sk-waveStretchDelay {
+              0%, 40%, 100% {
+                -webkit-transform: scaleY(0.4);
+                        transform: scaleY(0.4); }
+              20% {
+                -webkit-transform: scaleY(1);
+                        transform: scaleY(1); } }
+
+            /*
+             *  Usage:
+             *
+                  <div class="sk-wandering-cubes">
+                    <div class="sk-cube sk-cube1">
+                    <div class="sk-cube sk-cube2">
+                  
+             *
+             */
+            .sk-wandering-cubes {
+              margin: 0 auto;
+              width: 100%;
+              height: 100%;
+              position: relative; }
+              .sk-wandering-cubes .sk-cube {
+                background-color: #ed1c24;
+                width: 16px;
+                height: 16px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                -webkit-animation: sk-wanderingCube 1.8s ease-in-out -1.8s infinite both;
+                        animation: sk-wanderingCube 1.8s ease-in-out -1.8s infinite both; }
+              .sk-wandering-cubes .sk-cube2 {
+                -webkit-animation-delay: -0.9s;
+                        animation-delay: -0.9s; }
+
+            @-webkit-keyframes sk-wanderingCube {
+              0% {
+                -webkit-transform: rotate(0deg);
+                        transform: rotate(0deg); }
+              25% {
+                -webkit-transform: translateX(45px) rotate(-90deg) scale(0.5);
+                        transform: translateX(45px) rotate(-90deg) scale(0.5); }
+              50% {
+                /* Hack to make FF rotate in the right direction */
+                -webkit-transform: translateX(45px) translateY(45px) rotate(-179deg);
+                        transform: translateX(45px) translateY(45px) rotate(-179deg); }
+              50.1% {
+                -webkit-transform: translateX(45px) translateY(45px) rotate(-180deg);
+                        transform: translateX(45px) translateY(45px) rotate(-180deg); }
+              75% {
+                -webkit-transform: translateX(0) translateY(45px) rotate(-270deg) scale(0.5);
+                        transform: translateX(0) translateY(45px) rotate(-270deg) scale(0.5); }
+              100% {
+                -webkit-transform: rotate(-360deg);
+                        transform: rotate(-360deg); } }
+
+            @keyframes sk-wanderingCube {
+              0% {
+                -webkit-transform: rotate(0deg);
+                        transform: rotate(0deg); }
+              25% {
+                -webkit-transform: translateX(45px) rotate(-90deg) scale(0.5);
+                        transform: translateX(45px) rotate(-90deg) scale(0.5); }
+              50% {
+                /* Hack to make FF rotate in the right direction */
+                -webkit-transform: translateX(45px) translateY(45px) rotate(-179deg);
+                        transform: translateX(45px) translateY(45px) rotate(-179deg); }
+              50.1% {
+                -webkit-transform: translateX(45px) translateY(45px) rotate(-180deg);
+                        transform: translateX(45px) translateY(45px) rotate(-180deg); }
+              75% {
+                -webkit-transform: translateX(0) translateY(45px) rotate(-270deg) scale(0.5);
+                        transform: translateX(0) translateY(45px) rotate(-270deg) scale(0.5); }
+              100% {
+                -webkit-transform: rotate(-360deg);
+                        transform: rotate(-360deg); } }
+
+            /*
+             *  Usage:
+             *
+                  <div class="sk-spinner sk-spinner-pulse">
+             *
+             */
+            .sk-spinner-pulse {
+              width: 100%;
+              height: 100%;
+              margin: 0 auto;
+              background-color: #ed1c24;
+              border-radius: 100%;
+              -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
+                      animation: sk-pulseScaleOut 1s infinite ease-in-out; }
+
+            @-webkit-keyframes sk-pulseScaleOut {
+              0% {
+                -webkit-transform: scale(0);
+                        transform: scale(0); }
+              100% {
+                -webkit-transform: scale(1);
+                        transform: scale(1);
+                opacity: 0; } }
+
+            @keyframes sk-pulseScaleOut {
+              0% {
+                -webkit-transform: scale(0);
+                        transform: scale(0); }
+              100% {
+                -webkit-transform: scale(1);
+                        transform: scale(1);
+                opacity: 0; } }
+
+            /*
+             *  Usage:
+             *
+                  <div class="sk-chasing-dots">
+                    <div class="sk-child sk-dot1">
+                    <div class="sk-child sk-dot2">
+                  
+             *
+             */
+            .sk-chasing-dots {
+              margin: 0 auto;
+              width: 100%;
+              height: 100%;
+              position: relative;
+              text-align: center;
+              -webkit-animation: sk-chasingDotsRotate 2s infinite linear;
+                      animation: sk-chasingDotsRotate 2s infinite linear; }
+              .sk-chasing-dots .sk-child {
+                width: 60%;
+                height: 60%;
+                display: inline-block;
+                position: absolute;
+                top: 0;
+                background-color: #ed1c24;
+                border-radius: 100%;
+                -webkit-animation: sk-chasingDotsBounce 2s infinite ease-in-out;
+                        animation: sk-chasingDotsBounce 2s infinite ease-in-out; }
+              .sk-chasing-dots .sk-dot2 {
+                top: auto;
+                bottom: 0;
+                -webkit-animation-delay: -1s;
+                        animation-delay: -1s; }
+
+            @-webkit-keyframes sk-chasingDotsRotate {
+              100% {
+                -webkit-transform: rotate(360deg);
+                        transform: rotate(360deg); } }
+
+            @keyframes sk-chasingDotsRotate {
+              100% {
+                -webkit-transform: rotate(360deg);
+                        transform: rotate(360deg); } }
+
+            @-webkit-keyframes sk-chasingDotsBounce {
+              0%, 100% {
+                -webkit-transform: scale(0);
+                        transform: scale(0); }
+              50% {
+                -webkit-transform: scale(1);
+                        transform: scale(1); } }
+
+            @keyframes sk-chasingDotsBounce {
+              0%, 100% {
+                -webkit-transform: scale(0);
+                        transform: scale(0); }
+              50% {
+                -webkit-transform: scale(1);
+                        transform: scale(1); } }
+
+            /*
+             *  Usage:
+             *
+                  <div class="sk-three-bounce">
+                    <div class="sk-child sk-bounce1">
+                    <div class="sk-child sk-bounce2">
+                    <div class="sk-child sk-bounce3">
+                  
+             *
+             */
+            .sk-three-bounce {
+              margin: 0 auto;
+              width: 100%;
+              font-size: 26px;
+              position: relative;
+              text-align: center; }
+              .sk-three-bounce .sk-child {
+                width: 20px;
+                height: 20px;
+                background-color: #ed1c24;
+                border-radius: 100%;
+                display: inline-block;
+                -webkit-animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;
+                        animation: sk-three-bounce 1.4s ease-in-out 0s infinite both; }
+              .sk-three-bounce .sk-bounce1 {
+                       animation-delay: -0.32s; }
+              .sk-three-bounce .sk-bounce2 {
+                -webki -webkit-animation-delay: -0.32s;
+                t-animation-delay: -0.16s;
+                        animation-delay: -0.16s; }
+
+            @-webkit-keyframes sk-three-bounce {
+              0%, 80%, 100% {
+                -webkit-transform: scale(0);
+                        transform: scale(0); }
+              40% {href
+                -webkit-transform: scale(1);
+                        transform: scale(1); } }
+
+            @keyframes sk-three-bounce {
+              0%, 80%, 100% {
+                -webkit-transform: scale(0);
+                        transform: scale(0); }
+              40% {
+                -webkit-transform: scale(1);
+                        transform: scale(1); } }
+
+            /*
+             *  Usage:
+             *
+                  <div class="sk-circle">
+                    <div class="sk-circle1 sk-child">
+                    <div class="sk-circle2 sk-child">
+                    <div class="sk-circle3 sk-child">
+                    <div class="sk-circle4 sk-child">
+                    <div class="sk-circle5 sk-child">
+                    <div class="sk-circle6 sk-child">
+                    <div class="sk-circle7 sk-child">
+                    <div class="sk-circle8 sk-child">
+                    <div class="sk-circle9 sk-child">
+                    <div class="sk-circle10 sk-child">
+                    <div class="sk-circle11 sk-child">
+                    <div class="sk-circle12 sk-child">
+                  
+             *
+             */
+            .sk-circle {
+              margin: 0 auto;
+              width: 100%;
+              height: 100%;
+              position: relative; }
+              .sk-circle .sk-child {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0; }
+              .sk-circle .sk-child:before {
+                content: '';
+                display: block;
+                margin: 0 auto;
+                width: 15%;
+                height: 15%;
+                background-color: #ed1c24;
+                border-radius: 100%;
+                -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+                        animation: sk-circleBounceDelay 1.2s infinite ease-in-out both; }
+              .sk-circle .sk-circle2 {
+                -webkit-transform: rotate(30deg);
+                    -ms-transform: rotate(30deg);
+                        transform: rotate(30deg); }
+              .sk-circle .sk-circle3 {
+                -webkit-transform: rotate(60deg);
+                    -ms-transform: rotate(60deg);
+                        transform: rotate(60deg); }
+              .sk-circle .sk-circle4 {
+                -webkit-transform: rotate(90deg);
+                    -ms-transform: rotate(90deg);
+                        transform: rotate(90deg); }
+              .sk-circle .sk-circle5 {
+                -webkit-transform: rotate(120deg);
+                    -ms-transform: rotate(120deg);
+                        transform: rotate(120deg); }
+              .sk-circle .sk-circle6 {
+                -webkit-transform: rotate(150deg);
+                    -ms-transform: rotate(150deg);
+                        transform: rotate(150deg); }
+              .sk-circle .sk-circle7 {
+                -webkit-transform: rotate(180deg);
+                    -ms-transform: rotate(180deg);
+                        transform: rotate(180deg); }
+              .sk-circle .sk-circle8 {
+                -webkit-transform: rotate(210deg);
+                    -ms-transform: rotate(210deg);
+                        transform: rotate(210deg); }
+              .sk-circle .sk-circle9 {
+                -webkit-transform: rotate(240deg);
+                    -ms-transform: rotate(240deg);
+                        transform: rotate(240deg); }
+              .sk-circle .sk-circle10 {
+                -webkit-transform: rotate(270deg);
+                    -ms-transform: rotate(270deg);
+                        transform: rotate(270deg); }
+              .sk-circle .sk-circle11 {
+                -webkit-transform: rotate(300deg);
+                    -ms-transform: rotate(300deg);
+                        transform: rotate(300deg); }
+              .sk-circle .sk-circle12 {
+                -webkit-transform: rotate(330deg);
+                    -ms-transform: rotate(330deg);
+                        transform: rotate(330deg); }
+              .sk-circle .sk-circle2:before {
+                -webkit-animation-delay: -1.1s;
+                        animation-delay: -1.1s; }
+              .sk-circle .sk-circle3:before {
+                -webkit-animation-delay: -1s;
+                        animation-delay: -1s; }
+              .sk-circle .sk-circle4:before {
+                -webkit-animation-delay: -0.9s;
+                        animation-delay: -0.9s; }
+              .sk-circle .sk-circle5:before {
+                -webkit-animation-delay: -0.8s;
+                        animation-delay: -0.8s; }
+              .sk-circle .sk-circle6:before {
+                -webkit-animation-delay: -0.7s;
+                        animation-delay: -0.7s; }
+              .sk-circle .sk-circle7:before {
+                -webkit-animation-delay: -0.6s;
+                        animation-delay: -0.6s; }
+              .sk-circle .sk-circle8:before {
+                -webkit-animation-delay: -0.5s;
+                        animation-delay: -0.5s; }
+              .sk-circle .sk-circle9:before {
+                -webkit-animation-delay: -0.4s;
+                        animation-delay: -0.4s; }
+              .sk-circle .sk-circle10:before {
+                -webkit-animation-delay: -0.3s;
+                        animation-delay: -0.3s; }
+              .sk-circle .sk-circle11:before {
+                -webkit-animation-delay: -0.2s;
+                        animation-delay: -0.2s; }
+              .sk-circle .sk-circle12:before {
+                -webkit-animation-delay: -0.1s;
+                        animation-delay: -0.1s; }
+
+            @-webkit-keyframes sk-circleBounceDelay {
+              0%, 80%, 100% {
+                -webkit-transform: scale(0);
+                        transform: scale(0); }
+              40% {
+                -webkit-transform: scale(1);
+                        transform: scale(1); } }
+
+            @keyframes sk-circleBounceDelay {
+              0%, 80%, 100% {
+                -webkit-transform: scale(0);
+                        transform: scale(0); }
+              40% {
+                -webkit-transform: scale(1);
+                        transform: scale(1); } }
+
+            /*
+             *  Usage:
+             *
+                  <div class="sk-cube-grid">
+                    <div class="sk-cube sk-cube1">
+                    <div class="sk-cube sk-cube2">
+                    <div class="sk-cube sk-cube3">
+                    <div class="sk-cube sk-cube4">
+                    <div class="sk-cube sk-cube5">
+                    <div class="sk-cube sk-cube6">
+                    <div class="sk-cube sk-cube7">
+                    <div class="sk-cube sk-cube8">
+                    <div class="sk-cube sk-cube9">
+                  
+             *
+             */
+            .sk-cube-grid {
+              width: 100%;
+              height: 100%;
+              margin: 0 auto;
+              /*
+               * Spinner positions
+               * 1 2 3
+               * 4 5 6
+               * 7 8 9
+               */ }
+              .sk-cube-grid .sk-cube {
+                width: 33.33%;
+                height: 33.33%;
+                background-color: #ed1c24;
+                float: left;
+                -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+                        animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; }
+              .sk-cube-grid .sk-cube1 {
+                -webkit-animation-delay: 0.2s;
+                        animation-delay: 0.2s; }
+              .sk-cube-grid .sk-cube2 {
+                -webkit-animation-delay: 0.3s;
+                        animation-delay: 0.3s; }
+              .sk-cube-grid .sk-cube3 {
+                -webkit-animation-delay: 0.4s;
+                        animation-delay: 0.4s; }
+              .sk-cube-grid .sk-cube4 {
+                -webkit-animation-delay: 0.1s;
+                        animation-delay: 0.1s; }
+              .sk-cube-grid .sk-cube5 {
+                -webkit-animation-delay: 0.2s;
+                        animation-delay: 0.2s; }
+              .sk-cube-grid .sk-cube6 {
+                -webkit-animation-delay: 0.3s;
+                        animation-delay: 0.3s; }
+              .sk-cube-grid .sk-cube7 {
+                -webkit-animation-delay: 0.0s;
+                        animation-delay: 0.0s; }
+              .sk-cube-grid .sk-cube8 {
+                -webkit-animation-delay: 0.1s;
+                        animation-delay: 0.1s; }
+              .sk-cube-grid .sk-cube9 {
+                -webkit-animation-delay: 0.2s;
+                        animation-delay: 0.2s; }
+
+            @-webkit-keyframes sk-cubeGridScaleDelay {
+              0%, 70%, 100% {
+                -webkit-transform: scale3D(1, 1, 1);
+                        transform: scale3D(1, 1, 1); }
+              35% {
+                -webkit-transform: scale3D(0, 0, 1);
+                        transform: scale3D(0, 0, 1); } }
+
+            @keyframes sk-cubeGridScaleDelay {
+              0%, 70%, 100% {
+                -webkit-transform: scale3D(1, 1, 1);
+                        transform: scale3D(1, 1, 1); }
+              35% {
+                -webkit-transform: scale3D(0, 0, 1);
+                        transform: scale3D(0, 0, 1); } }
+
+            /*
+             *  Usage:
+             *
+                  <div class="sk-fading-circle">
+                    <div class="sk-circle1 sk-circle">
+                    <div class="sk-circle2 sk-circle">
+                    <div class="sk-circle3 sk-circle">
+                    <div class="sk-circle4 sk-circle">
+                    <div class="sk-circle5 sk-circle">
+                    <div class="sk-circle6 sk-circle">
+                    <div class="sk-circle7 sk-circle">
+                    <div class="sk-circle8 sk-circle">
+                    <div class="sk-circle9 sk-circle">
+                    <div class="sk-circle10 sk-circle">
+                    <div class="sk-circle11 sk-circle">
+                    <div class="sk-circle12 sk-circle">
+                  
+             *
+             */
+            .sk-fading-circle {
+              margin: 0 auto;
+              width: 100%;
+              height: 100%;
+              position: relative; }
+              .sk-fading-circle .sk-circle {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0; }
+              .sk-fading-circle .sk-circle:before {
+                content: '';
+                display: block;
+                margin: 0 auto;
+                width: 15%;
+                height: 15%;
+                background-color: #ed1c24;
+                border-radius: 100%;
+                -webkit-animation: sk-circleFadeDelay 1.2s infinite ease-in-out both;
+                        animation: sk-circleFadeDelay 1.2s infinite ease-in-out both; }
+              .sk-fading-circle .sk-circle2 {
+                -webkit-transform: rotate(30deg);
+                    -ms-transform: rotate(30deg);
+                        transform: rotate(30deg); }
+              .sk-fading-circle .sk-circle3 {
+                -webkit-transform: rotate(60deg);
+                    -ms-transform: rotate(60deg);
+                        transform: rotate(60deg); }
+              .sk-fading-circle .sk-circle4 {
+                -webkit-transform: rotate(90deg);
+                    -ms-transform: rotate(90deg);
+                        transform: rotate(90deg); }
+              .sk-fading-circle .sk-circle5 {
+                -webkit-transform: rotate(120deg);
+                    -ms-transform: rotate(120deg);
+                        transform: rotate(120deg); }
+              .sk-fading-circle .sk-circle6 {
+                -webkit-transform: rotate(150deg);
+                    -ms-transform: rotate(150deg);
+                        transform: rotate(150deg); }
+              .sk-fading-circle .sk-circle7 {
+                -webkit-transform: rotate(180deg);
+                    -ms-transform: rotate(180deg);
+                        transform: rotate(180deg); }
+              .sk-fading-circle .sk-circle8 {
+                -webkit-transform: rotate(210deg);
+                    -ms-transform: rotate(210deg);
+                        transform: rotate(210deg); }
+              .sk-fading-circle .sk-circle9 {
+                -webkit-transform: rotate(240deg);
+                    -ms-transform: rotate(240deg);
+                        transform: rotate(240deg); }
+              .sk-fading-circle .sk-circle10 {
+                -webkit-transform: rotate(270deg);
+                    -ms-transform: rotate(270deg);
+                        transform: rotate(270deg); }
+              .sk-fading-circle .sk-circle11 {
+                -webkit-transform: rotate(300deg);
+                    -ms-transform: rotate(300deg);
+                        transform: rotate(300deg); }
+              .sk-fading-circle .sk-circle12 {
+                -webkit-transform: rotate(330deg);
+                    -ms-transform: rotate(330deg);
+                        transform: rotate(330deg); }
+              .sk-fading-circle .sk-circle2:before {
+                -webkit-animation-delay: -1.1s;
+                        animation-delay: -1.1s; }
+              .sk-fading-circle .sk-circle3:before {
+                -webkit-animation-delay: -1s;
+                        animation-delay: -1s; }
+              .sk-fading-circle .sk-circle4:before {
+                -webkit-animation-delay: -0.9s;
+                        animation-delay: -0.9s; }
+              .sk-fading-circle .sk-circle5:before {
+                -webkit-animation-delay: -0.8s;
+                        animation-delay: -0.8s; }
+              .sk-fading-circle .sk-circle6:before {
+                -webkit-animation-delay: -0.7s;
+                        animation-delay: -0.7s; }
+              .sk-fading-circle .sk-circle7:before {
+                -webkit-animation-delay: -0.6s;
+                        animation-delay: -0.6s; }
+              .sk-fading-circle .sk-circle8:before {
+                -webkit-animation-delay: -0.5s;
+                        animation-delay: -0.5s; }
+              .sk-fading-circle .sk-circle9:before {
+                -webkit-animation-delay: -0.4s;
+                        animation-delay: -0.4s; }
+              .sk-fading-circle .sk-circle10:before {
+                -webkit-animation-delay: -0.3s;
+                        animation-delay: -0.3s; }
+              .sk-fading-circle .sk-circle11:before {
+                -webkit-animation-delay: -0.2s;
+                        animation-delay: -0.2s; }
+              .sk-fading-circle .sk-circle12:before {
+                -webkit-animation-delay: -0.1s;
+                        animation-delay: -0.1s; }
+
+            @-webkit-keyframes sk-circleFadeDelay {
+              0%, 39%, 100% {
+                opacity: 0; }
+              40% {
+                opacity: 1; } }
+
+            @keyframes sk-circleFadeDelay {
+              0%, 39%, 100% {
+                opacity: 0; }
+              40% {
+                opacity: 1; } }
+
+            /*
+             *  Usage:
+             *
+                  <div class="sk-folding-cube">
+                    <div class="sk-cube1 sk-cube">
+                    <div class="sk-cube2 sk-cube">
+                    <div class="sk-cube4 sk-cube">
+                    <div class="sk-cube3 sk-cube">
+                  
+             *
+             */
+            .sk-folding-cube {
+              margin: 0 auto;
+              width: 100%;
+              height: 100%;
+              position: relative;
+              -webkit-transform: rotateZ(45deg);
+                      transform: rotateZ(45deg); }
+              .sk-folding-cube .sk-cube {
+                float: left;
+                width: 50%;
+                height: 50%;
+                position: relative;
+                -webkit-transform: scale(1.1);
+                    -ms-transform: scale(1.1);
+                        transform: scale(1.1); }
+              .sk-folding-cube .sk-cube:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #ed1c24;
+                -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+                        animation: sk-foldCubeAngle 2.4s infinite linear both;
+                -webkit-transform-origin: 100% 100%;
+                    -ms-transform-origin: 100% 100%;
+                        transform-origin: 100% 100%; }
+              .sk-folding-cube .sk-cube2 {
+                -webkit-transform: scale(1.1) rotateZ(90deg);
+                        transform: scale(1.1) rotateZ(90deg); }
+              .sk-folding-cube .sk-cube3 {
+                -webkit-transform: scale(1.1) rotateZ(180deg);
+                        transform: scale(1.1) rotateZ(180deg); }
+              .sk-folding-cube .sk-cube4 {
+                -webkit-transform: scale(1.1) rotateZ(270deg);
+                        transform: scale(1.1) rotateZ(270deg); }
+              .sk-folding-cube .sk-cube2:before {
+                -webkit-animation-delay: 0.3s;
+                        animation-delay: 0.3s; }
+              .sk-folding-cube .sk-cube3:before {
+                -webkit-animation-delay: 0.6s;
+                        animation-delay: 0.6s; }
+              .sk-folding-cube .sk-cube4:before {
+                -webkit-animation-delay: 0.9s;
+                        animation-delay: 0.9s; }
+
+            @-webkit-keyframes sk-foldCubeAngle {
+              0%, 10% {
+                -webkit-transform: perspective(140px) rotateX(-180deg);
+                        transform: perspective(140px) rotateX(-180deg);
+                opacity: 0; }
+              25%, 75% {
+                -webkit-transform: perspective(140px) rotateX(0deg);
+                        transform: perspective(140px) rotateX(0deg);
+                opacity: 1; }
+              90%, 100% {
+                -webkit-transform: perspective(140px) rotateY(180deg);
+                        transform: perspective(140px) rotateY(180deg);
+                opacity: 0; } }
+
+            @keyframes sk-foldCubeAngle {
+              0%, 10% {
+                -webkit-transform: perspective(140px) rotateX(-180deg);
+                        transform: perspective(140px) rotateX(-180deg);
+                opacity: 0; }
+              25%, 75% {
+                -webkit-transform: perspective(140px) rotateX(0deg);
+                        transform: perspective(140px) rotateX(0deg);
+                opacity: 1; }
+              90%, 100% {
+                -webkit-transform: perspective(140px) rotateY(180deg);
+                        transform: perspective(140px) rotateY(180deg);
+                opacity: 0; } }
+        
+                            #g-showcase .YTPOverlay {
+                    background-color: rgba(3, 61, 90, 0.6);
+                }
+                    
+body #g-prebottom {
+						display: none;
+					}
+#g-navigation .g-main-nav .g-dropdown > .g-dropdown-column::before {
+    font-family: "FontAwesome";
+    content: "\f0d8";
+    color: #ed1c24;
+    position: absolute;
+    left: 80px;
+    top: -3px;
+}
+.g-main-nav .g-standard > .g-dropdown, .g-main-nav .g-fullwidth > .g-dropdown {
+    margin-top: 0px;
+}
+.g-main-nav .g-toplevel > li > .g-menu-item-container, .g-main-nav .g-sublevel > li > .g-menu-item-container {
+    padding: 0.2345rem 0.469rem;
+    white-space: inherit;  
+}
+#g-navigation .g-main-nav .g-dropdown .g-menu-item-container {
+    color: #252d37;
+    padding: 12px 9px;
+}
+#g-navigation .g-main-nav .g-dropdown > .g-dropdown-column::before {
+    top: -16px;
+}
+.g-main-nav .g-standard .g-dropdown {
+    width: 195px;
+}
+#g-top {
+    font-size: 0.81rem;
+}
+.g-social a {
+    border-right: 0px solid #425d77;
+    padding: 0.7rem 0.5rem 0.5rem 0.5rem;
+}
+.g-social a:first-child {
+    border-left: 0px solid #425d77;
+}
+div.mod-languages ul {
+    padding: 0.8rem;
+}
+.g-buttons .g-buttons-item .g-block .g-buttons-item-title1 {
+    text-transform: inherit;
+}
+.g-buttons .g-buttons-item .g-block .g-buttons-item-icon {
+   font-size: 2rem;
+   padding-left: 1rem;
+}
+.g-buttons .g-buttons-item {
+    border: 0px solid #777;
+}
+#g-top .g-content {
+    padding: 0.3rem;
+    margin-bottom: -2px;
+}
+.g-buttons .g-buttons-item {
+    color: #ffffff;
+}
+#g-showcase{
+  background-color: lightblue;
+}
+#g-showcase h1, #g-showcase h2, #g-showcase h3, #g-showcase h4, #g-showcase h5, #g-showcase h6, #g-showcase strong {
+    color: #ffffff;
+}
+.g-image-features .g-content {
+    padding-bottom: 6rem;
+}
+#g-header {
+    color: #ed1c24;
+}
+.g-contacts.style2 .g-contacts-icon {
+    border: 1px solid #ed1c24;
+}
+.g-collapsible-section .g-toggle-text {
+    background: #ED1C24;
+    border-radius: 8px;
+}
+body, #g-page-surround {
+    color: #ffffff;
+}
+#g-intro {
+    background-color: #fff;
+    color: #777;
+    padding: 0.5rem;
+}
+body .uk-slidenav {
+    border-radius: 10%;
+}
+#g-intro h1, #g-intro h2, #g-intro h3, #g-intro h4, #g-intro h5, #g-intro h6, #g-intro strong {
+    color: #ffffff;
+}
+#g-intro {
+padding: 7rem 2rem 8rem 0rem;
+}
+h4 {
+    font-size: 1.1rem;
+}
+.g-features-particle {
+	.g-features-particle-image {
+		.uk-overlay-icon {
+			&:before {
+				content: "\f0c1";
+				font-size: 20px;
+				height: 55px;
+				width: 55px;
+				line-height: 55px;
+				margin-left: -27.5px;
+				margin-top: -27.5px;
+				background: $accent-color-1;
+				border-radius: 50%;
+			}
+		}
+	}
+}
+.g-features-particle.style6 .g-content {
+    padding: 0rem 0rem 0rem 0rem;
+}
+.g-search-login #modal-login #form-login-remember input {
+    margin: 8px 5px 0 0;
+    width: auto;
+}
+.g-video-feature .g-video-feature-left .g-content {
+    padding-top: 45px;
+}
+.g-features2-particle.style5 .g-features2-particle-icon {
+    color: #ed1c24;
+    margin: -14px 2px 2px 2px;
+}
+.uk-button-danger {
+    background-color: #ed1c24;
+}
+.uk-button-danger:hover {
+background-color: #ed1c24;
+color:#fff
+}
+#g-aside .g-title, #g-sidebar .g-title {
+    font-size: 24px;
+    margin-top: 7px;
+    margin-bottom: 25px;
+}
+.g-contacts .g-contacts-item {
+    text-align: left;
+    padding: 8px 0px 19px 0px;
+}
+.contact #contact-form fieldset > legend {
+    display: none !important;
+}
+.radio input[type="radio"], .checkbox input[type="checkbox"] {
+    float: left;
+    margin-left: -22px;
+    width: 14px !important;
+}
+#g-mainbody h1, #g-mainbody h2, #g-mainbody h3, #g-mainbody h4, #g-mainbody h5, #g-mainbody h6, #g-mainbody strong {
+    color: #252d37;
+    margin: 11px 0px 6px 0px;
+}
+#sl_sidebar .result-container {
+    word-wrap: break-word;
+}
+.cc_container .cc_btn, .cc_container .cc_btn:visited {
+    color: #000;
+    background-color: #ED1C24;
+}
+.moveupsection {
+margin: -200px 0px 0px 0px;
+}
+            .g-search-login #modal-login .uk-modal-dialog {
+                width: 350px;
+            }
+
+</style>
+<html>
+<head>
+	  <meta charset="utf-8" />
+	<base href="https://www.newhealthsystem.gr/" />
+	<meta name="keywords" content="  ," />
+	<meta name="description" content="." />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>New Health Care</title>
+	<link href="/templates/it_medical/uikit/css/uikit.min.css" rel="stylesheet" />
+	<link href="/media/gantry5/assets/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="/media/gantry5/engines/nucleus/css-compiled/nucleus.css" rel="stylesheet" />
+	<link href="/templates/it_medical/custom/css-compiled/medical_16.css?60d57ac2" rel="stylesheet" />
+	<link href="/media/gantry5/assets/css/bootstrap-gantry.css" rel="stylesheet" />
+	<link href="/media/gantry5/engines/nucleus/css-compiled/joomla.css" rel="stylesheet" />
+	<link href="/media/jui/css/icomoon.css" rel="stylesheet" />
+	<link href="/templates/it_medical/custom/css-compiled/medical-joomla_16.css?60d57ac2" rel="stylesheet" />
+	<link href="/templates/it_medical/custom/css-compiled/custom_16.css?60d57ac2" rel="stylesheet" />
+	<link href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/dark-bottom.css" rel="stylesheet" />
+		<script src="/media/jui/js/jquery.min.js?ad4095fa659359312d8e0043efc63918"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?ad4095fa659359312d8e0043efc63918"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?ad4095fa659359312d8e0043efc63918"></script>
+	<script src="/media/system/js/core.js?ad4095fa659359312d8e0043efc63918"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/polyfill.event.js?ad4095fa659359312d8e0043efc63918"></script><![endif]-->
+	<script src="/media/system/js/keepalive.js?ad4095fa659359312d8e0043efc63918"></script>
+	<script src="/media/jui/js/bootstrap.min.js?ad4095fa659359312d8e0043efc63918"></script>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+  <body class="gantry site com_gantry5 view-custom no-layout no-task dir-ltr itemid-107 outline-16 g-offcanvas-left g-default g-style-preset4">
+        
+                        <div id="g-page-preloader"></div>
+
+
+        <div id="g-offcanvas"  data-g-offcanvas-swipe="0" data-g-offcanvas-css3="1">
+                        <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div id="mobile-menu-7803-particle" class="g-content g-particle">            <div id="g-mobilemenu-container" data-g-menu-breakpoint="48rem"></div>
+            </div>
+        </div>
+            </div>
+    </div>
+        <div id="g-page-surround">
+            <div class="g-offcanvas-hide g-offcanvas-toggle" role="navigation" data-offcanvas-toggle aria-controls="g-offcanvas" aria-expanded="false"><i class="fa fa-fw fa-bars"></i></div>                        
+
+                                            
+                <section id="g-top">
+                <div class="g-container">                                <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div class="g-content">
+                                    <div class="moduletable ">
+						<div id="module-buttons-203-particle" class="g-particle"><div class="g-buttons" >
+		
+		<div class="g-grid">
+	        									<div class="g-block">
+									<a target="_blank" href="#">
+									<div class="g-content g-buttons-item " >
+						<div class="g-grid">
+							<div class="g-block size-20">
+																	<span class="g-buttons-item-icon fa fa-location-arrow"></span>
+															</div>
+
+							<div class="g-block size-80">
+																	<p class="g-buttons-item-title1"></p>
+								
+															</div>
+						</div>
+					</div>
+									</a>
+							</div>
+					</div>
+	</div></div>		</div>
+            
+        </div>
+        </div>
+            </div>
+            </div>
+        
+    </section>
+                                
+                <header id="g-header">
+                <div class="g-container">                                <div class="g-grid">                        
+
+        <div class="g-block size-25">
+             <div id="logo-6391-particle" class="g-content g-particle">            <a href="#" title="" rel="home" class="g-logo g-logo">
+            <img src="https://imgur.com/NLKkSzN.png" id="nhc1" />
+    </a>
+            </div>
+        </div>
+                    
+
+        <div class="g-block size-75">
+             <div class="g-content">
+                                    <div class="moduletable ">
+						<div id="module-contacts-198-particle" class="g-particle"><div class="g-contacts style2 horizontal" >
+                    <div class="g-grid">
+                                        
+        
+        
+                            <div class="g-contacts-item g-block" >
+                                    <div class="g-content">
+                
+                                    <div class="g-contacts-icon">
+                        <span class="fa fa-phone-square"></span>
+                    </div>
+                
+                                    <div class="g-title-value-container">
+                                                    <h4 class="g-contact-title">Kontakti</h4>
+                        
+                                                    <div class="g-contact-value"><a target="_blank" href="#">+38344117717</a></div>
+                                            </div>
+                
+                                    </div>
+                            </div>
+        
+                    
+        
+        
+                            <div class="g-contacts-item g-block" >
+                                    <div class="g-content">
+                
+                                    <div class="g-contacts-icon">
+                        <span class="fa fa-clock-o"></span>
+                    </div>
+                
+                                    <div class="g-title-value-container">
+                                                    <h4 class="g-contact-title">Qendra Koordinuese</h4>
+                        
+                                                    <div class="g-contact-value">24 | 7 | 365</div>
+                                            </div>
+                
+                                    </div>
+                            </div>
+        
+                    
+        
+        
+                            <div class="g-contacts-item g-block" >
+                                    <div class="g-content">
+                
+                                    <div class="g-contacts-icon">
+                        <span class="fa fa-envelope"></span>
+                    </div>
+                
+                                    <div class="g-title-value-container">
+                                                    <h4 class="g-contact-title">E-mail</h4>
+                        
+                                                    <div class="g-contact-value"><a target="_blank" href="#">bekim.i.bajrami@gmail.com</a></div>
+                                            </div>
+                
+                                    </div>
+                            </div>
+        
+    
+                    </div>
+            </div></div>		</div>
+            
+        </div>
+        </div>
+            </div>
+            </div>
+        
+    </header>
+
+                <section id="g-navigation" data-uk-sticky="">
+                <div class="g-container">                                <div class="g-grid">                        
+
+        <div class="g-block size-76">
+             <div id="menu-6643-particle" class="g-content g-particle">            <nav class="g-main-nav " data-g-mobile-target data-g-hover-expand="true">
+        <ul class="g-toplevel">
+                                                
+                                                                                        
+        
+                        
+        
+                
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-117 g-parent g-standard g-menu-item-link-parent ">
+            <a class="g-menu-item-container" href="#">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Kompania</span>
+            
+                    </span>
+                    <span class="g-menu-parent-indicator" data-g-menuparent=""></span>                            </a>
+                                                        <ul class="g-dropdown g-inactive g-fade-in-up g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel"
+                                                                                                
+        
+                        
+        
+                
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-234  ">
+            <a class="g-menu-item-container" href="https://egzonbajrami.github.io/New-Health-Care/Profili.htmll">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Profili i Kompanise.</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        
+                        
+        
+                
+       
+                                                                                        
+        
+                        
+        
+        </ul>
+            </li>
+    
+                                                                                        
+        
+                        
+        
+                
+           
+
+        <div class="g-block size-24">
+             <div class="g-content">
+                                    <div class="moduletable ">
+						<div id="module-search-login-196-particle" class="g-particle"><div class="g-search-login" >
+        <div class="g-buttons">
+            
+        
+                <div class="g-login-button">               
+            <a href="file:///C:/Users/Beka/Documents/Faqja/Login.html" aria-label="Login">
+            	<i class="fa fa-user fa-fw"></i><span style="margin-left: 10px;">Kyqu</span>            </a>
+        </div>
+        
+        
+
+        </div>
+
+        
+                        <div id="modal-login" class="uk-modal">
+        <a class="uk-modal-close uk-close" aria-label="Close"></a>
+        <div class="uk-modal-dialog">
+                            		<div class="moduletable">
+							<h3>PROGRAMET E SHERBIMIT SHENDETSORE</h3>
+						<form action="https://www.newhealthsystem.gr/" method="post" id="login-form" class="form-inline">
+		<div class="userdata">
+		<div id="form-login-username" class="control-group">
+			<div class="controls">
+									<label for="modlgn-username" class="element-invisible">NDRYSHE</label>
+					<input id="modlgn-username" type="text" name="username" tabindex="0" size="18" placeholder="" />
+							</div>
+		</div>
+		<div id="form-login-password" class="control-group">
+			<div class="controls">
+									<label for="modlgn-passwd" class="element-invisible">NDRYSHE</label>
+					<input id="modlgn-passwd" type="password" name="password" tabindex="0" size="18" placeholder="Κωδικός" />
+							</div>
+		</div>
+						<div id="form-login-remember" class="control-group checkbox">
+			<label for="modlgn-remember" class="control-label">NDRYSHE</label> <input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes"/>
+		</div>
+				<div id="form-login-submit" class="control-group">
+			<div class="controls">
+				<button type="submit" tabindex="0" name="Submit" class="btn btn-primary">NDRYSHE</button>
+			</div>
+		</div>
+					<ul class="unstyled">
+							<li>
+					<a href="/login-gr?view=remind">
+					<i class="fa fa-question-circle"></i>PROGRAMET E SHERBIMIT SHENDETSORE</a>
+				</li>
+				<li>
+					<a href="/login-gr?view=reset">
+					<i class="fa fa-question-circle"></i>NDRYSHE</a>
+				</li>
+			</ul>
+		<input type="hidden" name="option" value="com_users" />
+		<input type="hidden" name="task" value="user.login" />
+		<input type="hidden" name="return" value="aHR0cHM6Ly93d3cubmV3aGVhbHRoc3lzdGVtLmdyLw==" />
+		<input type="hidden" name="e27f6cd59fef3d78c2da568e4ce9f249" value="1" />	</div>
+	</form>
+		</div>
+	
+            
+                    </div>
+    </div>
+
+            </div></div>		</div>
+            
+        </div>
+        </div>
+            </div>
+            </div>
+        
+    </section>
+<div class="col-md-12" id="big">
+	<img src="https://imgur.com/nGnClAi.png" id="firstimg">
+</div>
+<h3 style="margin-top:10vh"> Nutritionisti -</h3>
+<div class="col-md-10 border " style="margin-left:10vw">
+Sistemi i Ri Shëndetësor (N.H.C.) duke njohur rëndësinë e shëndetit psikologjik dhe social si dhe të ushqyerit në trajtimin e problemeve shëndetësore, vazhdoi në krijimin dhe operacionin e një rrjeti të shërbimeve shëndetësore të përbërë nga psikologë dhe Dietitians / Nutritionists duke siguruar:
+<br>
+<br>
+
+
+<bold>A. Mbështetje</bold> psikologjike telefonike falas
+  <br>
+  <br>
+
+
+<bold>B.</bold> Seancat e pakufizuara të këshillimit dhe mbështetjes psikologjike në klinikat e Psikologëve të rrjetit me pjesëmarrjen e anëtarëve të programit me shumën prej njëzet e pesë (25) euro për sesion
+<br>
+<br>
+
+<bold>C.</bold>Unlimited online (email/ Skype) këshillim dhe seancat e mbështetjes psikologjike që përfshijnë anëtarët e programit me një kosto preferenciale në varësi të llojit dhe numrit të seancave ose mesazheve si dhe kohëzgjatjen e tyre.
+<br>
+<br>
+
+
+<bold>D.</bold>Vizita të pakufizuara në Dietitians / Nutritionists me pjesëmarrjen e anëtarëve të programit, me shumën prej njëzet (20) euro për vizitë.
+<br>
+<br>
+
+
+</div>
+  
+
+	
+	
+
+		</div>
+		<div class="col-md-12 " style="background-color:rgb(48,67,86)" id="lastdiv">
+			<img src="https://imgur.com/NLKkSzN.png" id="img2">
+		</div>
+		
+                        <script type="text/javascript" src="/media/gantry5/assets/js/main.js"></script>
+    <script type="text/javascript" src="/templates/it_medical/uikit/js/uikit.min.js"></script>
+    <script type="text/javascript">
+		(function($) {
+			$(document).ready(function() {
+				$(window).scroll(function() {
+					if ($(document).scrollTop() < 500 || $(window).width() < 767) {
+				        $('#g-totop-button').removeClass('totopfixed');
+
+				    } else {
+				        $('#g-totop-button').addClass('totopfixed');
+
+				    }
+				});
+			});
+		})(jQuery);
+	</script>
+    <script type="text/javascript" src="/templates/it_medical/custom/js/pagePreloader.js"></script>
+    <script type="text/javascript">
+            (function($) {
+                $("#g-page-preloader").pagePreloader({
+                    timeToHide:false,
+                    zIndex:10001,
+                    spinner:"spinner9", 
+                    bgColor:"#ffffff"                                    });
+
+                $(window).load(function() { // makes sure the whole site is loaded
+                    $('#g-page-preloader').delay(400).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                })
+            })(jQuery);
+        </script>
+    <script type="text/javascript" src=""></script>
+    <script type="text/javascript">
+                            jQuery(function($) {
+                    if( $('#g-showcase').length ) {
+                        var data = "{containment:'#g-showcase', videoURL: '_zIa40ccCp8', mute: true, vol: 50, startAt: 0, stopAt: 0, loop: 999, quality: 'default', opacity: '1', autoPlay: true, stopMovieOnBlur: false, showControls: false, showYTLogo: false}";
+                        var $div = $('<div />').appendTo('body');
+                        $div.attr('class', 'g-video-container');
+                        $div.attr('data-property',data);
+                        $(".g-video-container").YTPlayer();
+                    }
+                });
+                    </script>
+    <script type="text/javascript">                
+				(function($) {
+					$(document).ready(function() {
+						if( $('#g-prebottom').length ) {
+							var section = $('#g-prebottom');
+							var toggleText = $('<div class="g-collapsible-section" ><div class="g-toggle-text"><span class="fa fa-location-arrow"><\/span>\u0394\u03B5\u03AF\u03C4\u03B5\u0020\u03BC\u03B1\u03C2\u0020\u03C3\u03C4\u03BF\u03BD\u0020\u03C7\u03AC\u03C1\u03C4\u03B7\u0021<\/div><\/div>');
+
+							$(section).before(toggleText);
+							$(toggleText).on("click", function(){
+								$(section).slideToggle();
+							});
+						}
+					});
+				})(jQuery);</script>
+    <script type="text/javascript" src=""></script>
+    <script type="text/javascript" src=""></script>
+    <script type="text/javascript">
+			window.sr = new scrollReveal({ mobile: false });
+		</script>
+    <script type="text/javascript">
+            window.cookieconsent_options = {
+                message: 'This webpage uses cookies to make your perfomance better, please allow us to.',
+                learnMore: '\u0020New\u0020Health\u0020Care',
+                                    link: '',
+                    target: '_blank',
+                                dismiss: 'Accept',
+                theme: 'dark-bottom'
+            };
+        </script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+    <script type="text/javascript">
+			(function($) {
+				// Header Search
+				$(window).load(function() {
+					var headerSearch = $("#header-search");
+					var headerSearchHeight = $("#g-navigation").innerHeight();
+					var closeSearch = $("#header-search a.uk-close");
+
+											var inputSearch = $("input#mod-search-searchword");
+										
+					var searchToggle = $("a#header-search-toggle");
+
+					$(headerSearch).prependTo($("#g-navigation .g-grid:first")).css({
+						'height' : headerSearchHeight,
+						'line-height' : (headerSearchHeight) + 'px'
+					});
+
+					$(closeSearch).css({
+						'top' : (headerSearchHeight / 2) - 10 
+					});
+
+					$(inputSearch).css({
+						'height' : headerSearchHeight,
+						'line-height' : (headerSearchHeight) + 'px'
+					});
+
+					$(searchToggle).on("click", function(e) {
+						e.preventDefault();
+						$(headerSearch).fadeIn("fast");
+						$(inputSearch).focus();
+					});
+
+					$(closeSearch).on("click", function(e) {
+						e.preventDefault();
+						$(headerSearch).fadeOut("fast");
+					});
+				});
+			})(jQuery);
+		</script>
+    <script type="text/javascript" src=""></script>
+    <script type="text/javascript" src=""></script>
+    <script type="text/javascript">
+		jQuery('.timer_281624953').waypoint(function() {
+			jQuery('.timer_281624953').countTo({
+							});
+			this.destroy();
+		}, {offset: "bottom-in-view"});
+	</script>
+    <script type="text/javascript" src=""></script>
+    <script type="text/javascript">
+        function initialize379342490() {
+
+            var latlng = new google.maps.LatLng(38.03438473400478,23.796578711345177);
+
+                            var isDraggable = 1;
+            
+            var myOptions =
+            {
+                zoom: 15,
+                center: latlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+
+                
+                scrollwheel: 0,
+                draggable: isDraggable
+            };
+
+            var map = new google.maps.Map(document.getElementById("g-map-379342490"), myOptions);
+
+                            var myMarker = new google.maps.Marker(
+                {
+                    position: latlng,
+                    map: map,
+                });
+
+                var contentString = 'New\u0020Health\u0020System';
+
+                var infowindow = new google.maps.InfoWindow({
+                    content: contentString
+                });
+
+                                    myMarker.addListener('click', function() {
+                        infowindow.open(map, myMarker);
+                    });
+
+                                            infowindow.open(map, myMarker);
+                                                
+            
+            // Resize stuff...
+            google.maps.event.addDomListener(window, "resize", function() {
+                var center = map.getCenter();
+                google.maps.event.trigger(map, "resize");
+                map.setCenter(center); 
+            });
+
+        }
+        google.maps.event.addDomListener(window, 'load', initialize379342490);
+        
+    </script>
+    
+
+	</body>
+	
+</html>
